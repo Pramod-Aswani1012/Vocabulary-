@@ -1,0 +1,373 @@
+
+        /* Now we will do the styling of our page */
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        html
+        {
+            scroll-behavior: smooth;
+        }
+        /* Navigation bar */
+
+        /* We will design the logo */
+        #logo {
+            margin: 15px 33px;
+            width: 15%;
+        }
+
+        #logo img {
+            height: 76px;
+            width: 76px;
+            border-radius: 50%;
+            /* margin: 10px 10px; */
+        }
+
+        #navbar {
+            display: flex;
+            /* justify-content: space-evenly; */
+            align-items: center;
+            width: 100vw;
+            top: 0px;
+            position: sticky;
+        }
+
+        #navbar::before {
+            content: "";
+            background-color: brown;
+            position: absolute;
+            height: 97px;
+            width: 100vw;
+            top: 0px;
+            z-index: -1;
+            opacity: 0.9;
+        }
+
+        #navs {
+            position: sticky;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+        }
+
+        #navbar ul li {
+            list-style: none;
+            /* justify-content: space-evenly; */
+        }
+
+        #navbar ul li a {
+            color: white;
+            text-decoration: none;
+            /* justify-content: space-evenly; */
+            font-size: 1.5rem;
+            /* padding: 1rem 4.5rem; */
+        }
+
+        #navbar ul li a:hover {
+            background-color: white;
+            color: black;
+            font-size: 1.8rem;
+            border-radius: 20%;
+        }
+
+        #srch {
+            height: 20px;
+            width: 220px;
+            border-radius: 20%;
+        }
+
+        .btn {
+            height: 28px;
+            width: 100px;
+            border-radius: 18%;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            font-size: 1.3rem;
+            border-radius: 20%;
+        }
+
+        #Search {
+            background-color: #7979ff;
+            position: relative;
+            top: -13px;
+            display: flex;
+            height: 30rem;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #Search h1 {
+            font-size: 3.5rem;
+            padding: 14px;
+        }
+
+        #Search h2 {
+            font-size: 2.5rem;
+            padding-bottom: 48px;
+        }
+
+        #SearchWord {
+            height: 45px;
+            width: 520px;
+            border-radius: 20px;
+            font-size: 1.5rem;
+            columns: black;
+            background-color: rgb(240, 210, 210);
+        }
+
+        #home {
+            background-color: rgb(189, 214, 236);
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #home h1 {
+            font-size: 3.5rem;
+            padding: 14px;
+        }
+
+        #home p {
+            font-size: 1.3rem;
+            /* font-style: oblique; */
+            font-family: 'Baloo Bhai';
+            color: rgb(202, 26, 26);
+            text-align: center;
+            padding: 20px;
+        }
+
+        #AboutUs {
+            background-color: rgb(185, 185, 245);
+            height: 445px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #AboutUs h1 {
+            font-size: 2.8rem;
+        }
+
+        #AboutUs h3 {
+            font-size: 2.0rem;
+        }
+
+        #AboutUs h4 {
+            font-size: 1.7rem;
+        }
+
+        #AboutUs ul {
+            font-size: 1.0rem;
+        }
+
+        .tags {
+            font-size: 2.0rem;
+            font-style: italic;
+
+        }
+
+        #everyone {
+            /* background-color: blue; */
+            color: blue;
+        }
+
+        #learners {
+            color: red;
+        }
+
+        #educators {
+            color: green;
+        }
+
+        /* Services Section */
+        #container {
+            display: grid;
+            /* grid-template-columns: repeat(auto-fit,minmax(100px ,1fr)); */
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 1.2rem;
+            grid-row-gap: 2rem;
+            border: 2px solid red;
+            background-color: rgb(218, 193, 161);
+            padding: 25px 12px;
+        }
+
+        .serve {
+            background-color: burlywood;
+            border: 1px dotted black;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 4rem;
+        }
+
+        .serve img {
+            height: 126px;
+            width: 173px;
+            border-radius: 10%;
+            box-shadow: 2px 2px brown;
+            margin: 20px 5px;
+            margin-bottom: 28px;
+        }
+
+        .serve:hover {
+            transform: scale(1.1);
+            border-radius: 10%;
+            border: 2px solid black;
+            transition-duration: 1s;
+            font-size: 1.01rem;
+            cursor: pointer;
+        }
+
+        #one {
+            margin-left: 15px;
+        }
+
+        #three {
+            margin-right: 15px;
+        }
+
+        #services h1 {
+            text-align: center;
+            font-size: 2.7rem;
+        }
+
+        .serve p {
+            text-align: center;
+            padding: 10px 2px;
+        }
+
+        #ContactContainer {
+            /* backgroundc: lightblue; */
+            /* border: 2px solid violet; */
+            display: grid;
+            /* grid-template-rows: 1fr; */
+            grid-template-columns: 2fr 2fr;
+            grid-column-gap: 2rem;
+
+            /* border: 1px solid red; */
+            grid-row-gap: 2rem;
+        }
+
+        #ContactUs {
+
+            height: 560px;
+            background-color: rgb(230, 248, 248);
+            width: 100vw;
+        }
+
+        #ContactUs h1 {
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        .cols {
+            display: flex;
+            /* border: 1px solid red; */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cols img {
+            border: 1px solid grey;
+            box-shadow: 2px 2px 2px 2px gray;
+            border-radius: 50%;
+        }
+        #display {
+    height: 416px;
+    width: 433px;
+    /* border: 2px solid blue; */
+    border-radius: 17%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 19px 7px blue;
+}
+        #display h4
+        {
+            color: grey;
+            font-size: 1.4rem;
+        }
+        #display p
+        {
+            color: black;
+            font-size: 1.1rem;
+            font-weight: bold;
+            padding: 10px;
+        }
+        #display a
+        {
+            text-decoration: none;
+            font-size: 1.3rem;
+            padding: 5px;
+            color: rgb(151, 68, 68);
+        }
+        .form
+        {
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+            align-items: center;
+        }
+        .formgrp
+        {
+            padding: 10px;
+            text-align: center;
+        }
+        #reg 
+        {
+            font-size: 2.4rem;
+            text-align: center;
+            padding: 20px;
+        }
+        .formgrp label,p
+        {
+            font-size: 1.5rem;
+            
+        }
+        .formgrp input
+        {
+            height: 25px;
+            width: 250px;
+            font-size: 1.2rem;
+        }
+        #registernow
+        {
+            padding: 25px;
+        }
+        #btn
+        {
+            
+            height: 42px;
+    width: 128px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #43cf43;
+    border: 2px solid green;
+    box-shadow: 4px 3px 7px 3px green;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+   
+        }
+        #footer
+        {
+            color: white;
+            /* font-size: 1.1rem; */
+            background-color: black;
+            text-align: center;
+            height: 30px;
+        }
+    
