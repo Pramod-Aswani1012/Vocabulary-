@@ -1,0 +1,120 @@
+@media screen and (max-width:400px) {
+    #logo
+    {
+        display: none;
+    }
+    #navbar
+    {
+        height: 129;
+        width: 100vw;
+    }
+    #navbar::before {
+        height: 116px;
+        width: 100vw;
+    }
+    #navs
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn
+    {
+        display: none;
+    }
+    #Search
+    {
+        top: 4px;
+        width: 100vw;
+    }
+    #Search h1
+    {
+        font-size: 24px;
+    }
+    #Search h2{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    #displayinline
+    {
+        display: block;
+    }
+    #word
+    {
+        width: 87vw;
+        text-align: center;
+    }
+    #fetchbutton
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #home
+    {
+        width: 100vw;
+    }
+    #AboutUs
+    {
+        width: 100vw;
+    }
+    #container
+    {
+        display: block;
+        /* width: 100vw; */
+    }
+    #ContactUs h1
+    {
+        text-align: center;
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    #one
+    {
+        margin-left: 0px;
+    }
+    #services h1
+    {
+        font-size: 28px;
+        width: 100vw;
+    }
+    #services 
+    {
+        width: 100vw;
+    }
+    .serve
+    {
+        padding-bottom: 0px;
+        margin: 5px;
+        margin-bottom: 15px;
+        border: 3px solid black;
+    }
+    #ContactUs
+    {
+        width: 100vw;
+    }
+    #cols2
+    {
+        display: none;
+    }
+    #ContactContainer
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form
+    {
+        position: relative;
+        top: 36px;
+        width: 100vw;
+    }
+    .form h1
+    {
+        text-align: center;
+    }
+    #foot
+    {
+        width: 100vw;
+    }
+
+}
